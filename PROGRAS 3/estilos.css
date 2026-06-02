@@ -18,6 +18,15 @@ left:20px; /*Alineado a la izquierda*/
 width: 100px; /*Ancho del logo*/
 }
 
+.contenedor{
+    text-align: center;
+padding: 20px;
+    background-color: rgba(255, 255, 255, 0.937);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
 .boton-redireccion{
 background-color:brown;
 color:rgba(255, 255, 255, 0.937);
