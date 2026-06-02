@@ -8,3 +8,26 @@ align-items:center;
 background: url(fondo2.1.jpg) center center;
 background-size: cover;
 }
+
+#logo{
+position:absolute; /* No depende de sus contenedores */
+top:20px; /*Separación de la parte superior*/
+/* bottom parte inferior */
+left:20px; /*Alineado a la izquierda*/
+/* right alineado a la derecha */
+width: 100px; /*Ancho del logo*/
+}
+
+.boton-redireccion{
+background-color:brown;
+color:rgba(255, 255, 255, 0.937);
+padding: 10px 20px;
+display:inline-block;
+margin-top: 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+
+.boton-redireccion:hover{
+background-color: #8B4513;
+}
