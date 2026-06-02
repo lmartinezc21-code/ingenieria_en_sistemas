@@ -1,0 +1,20 @@
+body,html {
+font-family:'Times New Roman', Times, serif;
+height:100%;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+background: url(fondo2.1.jpg) center center;
+background-size: cover;
+
+}
+
+.contenedor3{
+padding:20px;
+    background-color: rgba(176, 176, 174, 0.937);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
