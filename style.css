@@ -8,6 +8,18 @@ body,html {
    background: url(fondo.jpg) center center;
     background-size: cover;
 }
+
+#logo{
+position:absolute; /* No depende de sus contenedores */
+top:20px; /*Separación de la parte superior*/
+/* bottom parte inferior */
+left:20px; /*Alineado a la izquierda*/
+/* right alineado a la derecha */
+width: 100px; /*Ancho del logo*/
+}
+
+
+
 .contenedor{
     text-align: center;
 padding: 20px;
