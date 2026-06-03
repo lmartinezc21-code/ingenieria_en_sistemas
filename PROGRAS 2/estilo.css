@@ -43,16 +43,12 @@ body,html {
  width:100%;
 }
 }
-.telefono{
-    display:none;
 }
-}
-
 
 
 /*telefono*/
 @media (max-width:767px){
-.telefono{
+.computadora{
 body,html {
  font-family:'Times New Roman', Times, serif;
  height:100%;
@@ -94,8 +90,5 @@ body,html {
  bottom:0; /*Separación de la parte superior*/
  width:100%;
 }
-}
-.computadora{
-    display:none;
 }
 }
