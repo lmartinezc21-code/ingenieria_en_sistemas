@@ -41,9 +41,3 @@ text-decoration: none;
 .boton-redireccion:hover{
 background-color: #8B4513;
 }
-
-.contenedor4 {
-text-align: center;
-background-color:aliceblue;
-bottom:20px; /*Separación de la parte superior*/
-}
