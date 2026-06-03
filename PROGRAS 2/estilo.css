@@ -12,8 +12,6 @@ body,html {
 
 @media (max-width:767px) {
 .contenedortodo2 {
-display:none;
-
     }
 }
  
@@ -29,7 +27,6 @@ display:none;
 
 @media (min-width:991px) {
 .contenedortodo{
-    display:none;
 }
  }
 
