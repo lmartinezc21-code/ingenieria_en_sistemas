@@ -35,4 +35,11 @@ border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.footer {
+text-align: center;
+background-color:aliceblue;
+bottom:20px; /*Separación de la parte superior*/
+
+}
+
 
