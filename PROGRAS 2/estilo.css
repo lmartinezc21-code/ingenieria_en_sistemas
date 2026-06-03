@@ -18,7 +18,6 @@ body,html {
  width: 100px; /*Ancho del logo*/
 }
 .contenedor2{
- top:40px; /*Separación de la parte superior*/
  display:flex;
  justify-content:center;
  width:100vw;
@@ -27,6 +26,7 @@ body,html {
     
 }
 .contenedor3{
+    top:20px; /*Separación de la parte superior*/
  padding:20px;
  background-color: rgba(176, 176, 174, 0.937);
  border-radius: 10px;
