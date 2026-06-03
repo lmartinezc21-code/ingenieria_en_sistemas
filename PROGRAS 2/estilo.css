@@ -1,8 +1,6 @@
 /*escritorio*/
 @media (min-width:991px){
-.telefono{
-    display:none;
-}
+.computadora{
 body,html {
  font-family:'Times New Roman', Times, serif;
  height:100%;
@@ -45,34 +43,16 @@ body,html {
  width:100%;
 }
 }
-
-
-
-
-
-
-
-/* prueba de desactivar
-body,html {
-display: none;
+.telefono{
+    display:none;
 }
-#logo{
-display: none;
 }
-.contenedor2{
- display:none;
-}
-.contenedor3{
- display:none;
-}
-.footer{
- display:none;
-}
-} */
+
 
 
 /*telefono*/
 @media (max-width:767px){
+.telefono{
 body,html {
  font-family:'Times New Roman', Times, serif;
  height:100%;
@@ -113,5 +93,9 @@ body,html {
  position:absolute; /* No depende de sus contenedores */
  bottom:0; /*Separación de la parte superior*/
  width:100%;
+}
+}
+.computadora{
+    display:none;
 }
 }
