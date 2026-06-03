@@ -10,6 +10,23 @@ body,html {
  padding-bottom: 3em; /*el padding-bottom y el 3em hace referencia a la distancia entre el footer */
 }
 
+/**escritorio**/
+@media (min-width:991px) {
+    .telefono {
+        display:none;
+
+}
+}
+
+/**telefono**/
+@media (max-width:767px) {
+    .desktop {
+        display:none;
+
+}
+}
+
+
 #logo{
  position:absolute; /* No depende de sus contenedores */
  top:20px; /*Separación de la parte superior*/
