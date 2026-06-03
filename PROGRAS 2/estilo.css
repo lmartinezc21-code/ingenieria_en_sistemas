@@ -11,31 +11,6 @@ body,html {
 }
 
 
-@media (max-width:767px) {
-.contenedortodo2 {
-    display:none;
-    }
-}
- 
-
-
-/* tablet
-@media (min-width:768px) and (max-width:990px) {
- body,html {
-  background: url(fondo2.1.jpg) center center;
-  background-size: cover;
- }
-} */
-
-@media (min-width:991px) {
-.contenedortodo{
-    
-}
- }
-
-
-
-
 #logo{
  position:absolute; /* No depende de sus contenedores */
  top:20px; /*Separación de la parte superior*/
