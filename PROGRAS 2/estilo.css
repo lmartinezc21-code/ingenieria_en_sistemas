@@ -20,7 +20,7 @@ body,html {
 .contenedor2{
  display:flex;
  justify-content:center;
- width:100vw;
+ width:100%;
  flex-direction:column;
  align-items:center;
     
@@ -40,4 +40,23 @@ body,html {
  width:100%;
 }
 
+@media (max-width: 768px){
+#logo{
+width:70px;
+top:10px;
+left:10px;
+}
+.contenedor3{
+width:90%;
+padding:15px;
+box-sizing:border-box;
+}
+.footer{
+font-size:14px;
+padding:0.8em 0;
+}
+body,html{
+padding-bottom:4em;
+}
+}
 
