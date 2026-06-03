@@ -7,7 +7,7 @@ body,html {
     align-items: center;
    background: url(fondo.jpg) center center;
     background-size: cover;
-    padding-bottom: 3em;
+    padding-bottom: 3em; /*el padding-bottom y el 3em hace referencia a la distancia entre el footer */
 }
 
 #logo{
@@ -44,7 +44,7 @@ background-color: #8B4513;
 }
 
 .footer{
- background-color:aliceblue;
+ background-color:black;
  padding: 1em 0;
  text-align: center;
  position:absolute; /* No depende de sus contenedores */
