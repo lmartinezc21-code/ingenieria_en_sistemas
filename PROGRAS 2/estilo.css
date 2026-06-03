@@ -11,7 +11,7 @@ body {
 }
 
 /* Logo */
-#logo {
+/* #logo {
     position: fixed;
     top: 15px;
     left: 15px;
@@ -19,7 +19,7 @@ body {
     width: 90px;
 
     z-index: 1000;
-}
+} */
 
 /* Tarjeta principal */
 .contenido {
@@ -42,20 +42,20 @@ body {
 /* Tablet */
 @media (max-width: 992px) {
 
-    #logo {
+    /* #logo {
         width: 75px;
-    }
+    } */
 
 }
 
 /* Celular */
 @media (max-width: 768px) {
 
-    #logo {
+    /* #logo {
         width: 60px;
         top: 10px;
         left: 10px;
-    }
+    } */
 
     h1 {
         font-size: 2rem;
