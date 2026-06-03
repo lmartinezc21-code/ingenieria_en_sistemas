@@ -18,7 +18,7 @@ body,html {
  width: 100px; /*Ancho del logo*/
 }
 .contenedor2{
- top:20px; /*Separación de la parte superior*/
+ top:40px; /*Separación de la parte superior*/
  display:flex;
  justify-content:center;
  width:100vw;
