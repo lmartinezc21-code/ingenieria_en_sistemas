@@ -35,10 +35,13 @@ border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.contenedor4 {
-text-align: center;
-background-color:aliceblue;
-bottom:20px; /*Separación de la parte superior*/
+.footer{
+ background-color:aliceblue;
+ padding: 1em 0;
+ text-align: center;
+ position:absolute; /* No depende de sus contenedores */
+ bottom:0; /*Separación de la parte superior*/
+ width:100%;
 }
 
 
