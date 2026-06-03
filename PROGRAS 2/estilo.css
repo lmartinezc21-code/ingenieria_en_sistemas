@@ -10,6 +10,30 @@ body,html {
  padding-bottom: 3em;
 }
 
+@media (max-width:767px) {
+ body,html {
+  background: url(fondo2.1.jpg) center center;
+  background-size: cover;
+ }
+}
+
+
+@media (min-width:768px) and (max-width:990px) {
+ body,html {
+  background: url(fondo2.1.jpg) center center;
+  background-size: cover;
+ }
+}
+
+@media (min-width:991px) {
+ body,html {
+  background: url(fondo2.1.jpg) center center;
+  background-size: cover;
+ }
+}
+
+
+
 #logo{
  position:absolute; /* No depende de sus contenedores */
  top:20px; /*Separación de la parte superior*/
