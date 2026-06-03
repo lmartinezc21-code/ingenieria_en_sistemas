@@ -27,6 +27,7 @@ body,html {
 
 @media (min-width:991px) {
 .contenedortodo{
+    display:none;
 }
  }
 
