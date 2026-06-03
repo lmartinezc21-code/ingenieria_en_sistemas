@@ -7,6 +7,7 @@ body,html {
     align-items: center;
    background: url(fondo.jpg) center center;
     background-size: cover;
+    padding-bottom: 3em;
 }
 
 #logo{
