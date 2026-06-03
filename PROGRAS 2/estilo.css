@@ -1,4 +1,8 @@
+/*escritorio*/
 @media (min-width:991px){
+.telefono{
+    display:none;
+}
 body,html {
  font-family:'Times New Roman', Times, serif;
  height:100%;
@@ -10,8 +14,6 @@ body,html {
  background-size: cover;
  padding-bottom: 3em;
 }
-
-
 #logo{
  position:absolute; /* No depende de sus contenedores */
  top:20px; /*Separación de la parte superior*/
@@ -20,7 +22,6 @@ body,html {
  /* right alineado a la derecha */
  width: 100px; /*Ancho del logo*/
 }
-
 .contenedor2{
  display:flex;
  justify-content:center;
@@ -29,15 +30,12 @@ body,html {
  align-items:center;
     
 }
-
-
 .contenedor3{
  padding:20px;
  background-color: rgba(176, 176, 174, 0.937);
  border-radius: 10px;
  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 .footer{
  background-color:aliceblue;
  padding: 1em 0;
@@ -50,6 +48,30 @@ body,html {
 
 
 
+
+
+
+
+/* prueba de desactivar
+body,html {
+display: none;
+}
+#logo{
+display: none;
+}
+.contenedor2{
+ display:none;
+}
+.contenedor3{
+ display:none;
+}
+.footer{
+ display:none;
+}
+} */
+
+
+/*telefono*/
 @media (max-width:767px){
 body,html {
  font-family:'Times New Roman', Times, serif;
@@ -62,8 +84,6 @@ body,html {
  background-size: cover;
  padding-bottom: 3em;
 }
-
-
 #logo{
  position:absolute; /* No depende de sus contenedores */
  top:20px; /*Separación de la parte superior*/
@@ -72,7 +92,6 @@ body,html {
  /* right alineado a la derecha */
  width: 100px; /*Ancho del logo*/
 }
-
 .contenedor2{
  display:flex;
  justify-content:center;
@@ -81,15 +100,12 @@ body,html {
  align-items:center;
     
 }
-
-
 .contenedor3{
  padding:20px;
  background-color: rgba(176, 176, 174, 0.937);
  border-radius: 10px;
  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 .footer{
  background-color:aliceblue;
  padding: 1em 0;
