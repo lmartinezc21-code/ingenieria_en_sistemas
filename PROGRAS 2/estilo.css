@@ -39,6 +39,10 @@ body {
     padding: 15px;
 }
 
+section{
+    scroll-margin-top: 80px;
+}
+
 /* Tablet */
 @media (max-width: 992px) {
 
