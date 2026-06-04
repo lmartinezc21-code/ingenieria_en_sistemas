@@ -207,7 +207,25 @@
         </p>
     </footer>
 
+<!-- Contador de visitas -->
+<div class="text-center my-4">
+    <h5>Visitas al sitio: <span id="contador">0</span></h5>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    let visitas = localStorage.getItem("visitas");
+
+    if (visitas === null) {
+        visitas = 1;
+    } else {
+        visitas = parseInt(visitas) + 1;
+    }
+
+    localStorage.setItem("visitas", visitas);
+
+    document.getElementById("contador").textContent = visitas;
+</script>
 
 </body>
 </html>
