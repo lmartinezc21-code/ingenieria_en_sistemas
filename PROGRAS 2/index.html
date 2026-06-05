@@ -199,11 +199,14 @@
     </div>
 </section>
     </div>
-
-    <!-- Contador de visitas -->
-    <div class="text-center my-4 contador-visitas">
-    <h5>Visitas al sitio: <span id="contador">0</span></h5>
+    
+<!-- Contador de visitas global -->
+<div class="text-center my-4 contador-visitas">
+    <h4>🌐 Visitantes Totales</h4>
+    <div id="contador" class="contador-numero">Cargando...</div>
+    <p class="mb-0">Gracias por visitar nuestro sitio</p>
 </div>
+
 
     <!-- Footer -->
     <footer class="footer mt-5" id="footer">
@@ -212,19 +215,18 @@
         </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
-    let visitas = localStorage.getItem("visitas");
-
-    if (visitas === null) {
-        visitas = 1;
-    } else {
-        visitas = parseInt(visitas) + 1;
-    }
-
-    localStorage.setItem("visitas", visitas);
-
-    document.getElementById("contador").textContent = visitas;
+fetch('https://api.countapi.xyz/hit/ingenieria-sistemas-umg/visitas')
+.then(response => response.json())
+.then(data => {
+    document.getElementById('contador').textContent = data.value;
+})
+.catch(() => {
+    document.getElementById('contador').textContent = 'Error';
+});
 </script>
+
 
 </body>
 </html>
