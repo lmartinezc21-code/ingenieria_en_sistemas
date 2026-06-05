@@ -98,6 +98,22 @@ body, html{
         padding: 12px;
     }
 
+}
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body img {
+    max-width: 220px;
+}
+
+
+
     .footer{
         font-size: 0.8rem;
     }
